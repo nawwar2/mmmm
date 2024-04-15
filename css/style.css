@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:-webkit-linear-gradient(top , rgb(33, 151, 135) , rgb(173, 177, 68) )
+}
+header{
+    width: 100%;
+    height: 41px;
+    background:-webkit-linear-gradient(bottom , rgba(175, 104, 37, 0.655) , rgb(122, 62, 121) )
+}
+.home{
+    margin-left: 90%;
+}
+li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+img{
+    background-size: cover;
+    margin-left: 150px;
+}
+p{
+    text-align: center;
+}
+.tit{
+    text-align: right;
+}
+.tit1{
+    text-align: center;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(30% , 30% , 30%);
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+.div1{
+    column-count: 3;
+    column-gap: 10px;
+    color: #ffffff;
+}
+h6{
+    text-align: center;
+    color: #ffffff;
+}
+section{
+    color: rgb(0, 0, 0);
+}
